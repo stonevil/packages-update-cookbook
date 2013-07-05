@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: system-update
+# Cookbook Name:: packages-update
 # Recipe:: update
 #
 # Copyright (C) 2013 Myroslav Rys

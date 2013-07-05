@@ -1,4 +1,4 @@
-name             'system-update'
+name             'packages-update'
 maintainer       'Myroslav Rys'
 maintainer_email 'stonevil@gmail.com'
 license          'Aapache 2.0'

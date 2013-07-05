@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: system-update
+# Cookbook Name:: packages-update
 # Recipe:: update
 #
 # Copyright (C) 2013 Myroslav Rys
@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe "system-update::update"
+include_recipe "packages-update::update"
 
 case node["platform_family"]
   when "debian"

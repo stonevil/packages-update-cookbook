@@ -29,12 +29,12 @@ This section describes the recipes in the cookbook and how to use them in your e
 ## update
 Update Debian/Ubuntu package lists from the repositories.
 
-recipe[system-update::update]
+recipe[packages-update::update]
 
 ## upgrade
 Force Debian/Ubuntu/RHEL/CentOS/etc to update packages.
 
-recipe[system-update::upgrade]
+recipe[packages-update::upgrade]
 
 ## default
 Do nothing.

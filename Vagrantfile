@@ -97,7 +97,7 @@ Vagrant.configure("2") do |config|
     chef.data_bags_path = "data_bags"
     chef.provisioning_path = "/tmp/vagrant-chef"
     chef.run_list = [
-        "recipe[system-update::upgrade]"
+        "recipe[packages-update::upgrade]"
     ]
   end
 end
