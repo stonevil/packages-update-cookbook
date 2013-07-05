@@ -1,4 +1,4 @@
-[![Build Status](https://https://travis-ci.org/opscode/test-kitchen.png?branch=master)](https://travis-ci.org/opscode/test-kitchen)
+[![Build Status](https://secure.travis-ci.org/opscode/test-kitchen.png?branch=master)](https://travis-ci.org/opscode/test-kitchen)
 
 Description
 ===========
