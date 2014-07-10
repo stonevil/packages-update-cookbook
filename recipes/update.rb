@@ -20,6 +20,6 @@
 case node["platform_family"]
   when "debian"
     execute "Update package lists from the repositories" do
-      command "sudo apt-get update"
+      command "sudo apt-get --force-yes -y update"
     end
 end

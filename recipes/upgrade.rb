@@ -22,7 +22,7 @@ include_recipe "packages-update::update"
 case node["platform_family"]
   when "debian"
     execute "Force upgrade all packages" do
-      command "sudo apt-get -y upgrade"
+      command "sudo apt-get --force-yes -y upgrade"
     end
   when "rhel"
     execute "Force upgrade all packages" do
